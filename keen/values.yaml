@@ -1,4 +1,4 @@
-# Default values for myapp.
+# Default values for keen.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -11,8 +11,8 @@ image:
   tag: ""
 
 imagePullSecrets: []
-nameOverride: "myapp"
-fullnameOverride: "myapp-chart"
+nameOverride: "keen"
+fullnameOverride: "keenapp"
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -21,7 +21,7 @@ serviceAccount:
   annotations: {}
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
-  name: "myapp1"
+  name: "keen"
 
 podAnnotations: {}
 
